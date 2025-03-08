@@ -1,6 +1,21 @@
 # Task Management System
 
-A full-stack task management application with a React frontend and Flask backend. This application allows users to manage tasks, with features powered by Google's Generative AI.
+A full-stack task management application with AI assistance, built using React and Flask.
+
+![Task Management Dashboard](.github/assets/dashboard1.png)
+![Task Management Dashboard](.github/assets/dashboard2.png)
+
+
+
+## Features
+
+- Task Management (Create, Read, Update, Delete)
+- AI-powered task assistance using Google's Gemini API
+- Real-time chat interface
+- Task filtering and sorting
+- Responsive design
+
+
 
 ## Project Structure
 
