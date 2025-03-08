@@ -1,0 +1,38 @@
+# Create new .gitignore
+cat > .gitignore << EOL
+# Frontend (React)
+front/node_modules/
+front/.pnp
+front/.pnp.js
+front/coverage/
+front/build/
+front/.DS_Store
+front/.env
+front/.env.local
+front/.env.development.local
+front/.env.test.local
+front/.env.production.local
+front/npm-debug.log*
+front/yarn-debug.log*
+front/yarn-error.log*
+
+# Backend (Flask)
+back/__pycache__/
+back/*.py[cod]
+back/*$py.class
+back/venv/
+back/env/
+back/.env
+back/instance/
+back/.webassets-cache
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+EOL

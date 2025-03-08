@@ -1,0 +1,22 @@
+{
+    "css.validate": false,
+    "tailwindCSS.emmetCompletions": true,
+    "tailwindCSS.includeLanguages": {
+      "javascript": "javascript",
+      "html": "HTML"
+    },
+    "editor.quickSuggestions": {
+      "strings": true
+    },
+    "editor.codeActionsOnSave": {
+      "source.fixAll": true
+    },
+    "editor.formatOnSave": true,
+    "editor.inlineSuggest.enabled": true,
+    "tailwindCSS.suggestions": true,
+    "tailwindCSS.classAttributes": [
+      "class",
+      "className",
+      "ngClass"
+    ]
+  }
